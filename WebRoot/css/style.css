@@ -1,0 +1,97 @@
+body {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-size: 12px;
+	color: #adc9d9;
+}
+#top {
+	margin: 0 auto;
+	clear:both;
+	height:318px;
+	width:847px;
+}
+#center {
+	height:84px;
+	text-align:center;
+}
+#center_left {
+	margin-left:216px;
+	float:left;
+	height:84px;
+	width:381px;
+}
+
+*+html #center_left {
+	margin-left:206px !important;
+}
+
+#center_middle {
+	float:left;
+	height:84px;
+	width:162px;
+}
+#center_middle_right {
+	float:left;
+	height:84px;
+	width:26px;
+}
+#center_submit {
+	float:left;
+	height:84px;
+	width:67px;
+}
+#center_right {
+	float:left;
+	height:84px;
+	width:211px;
+}
+#footer {
+	margin:0 auto;
+	height:206px;
+	width:847px;
+}
+INPUT {
+	width:100px;
+	height:17px;
+	background-color:#87adbf;
+	border:solid 1px #153966;
+	font-size:12px;
+	color:#283439;
+}
+.chknumber_input {
+	width:40px;
+}
+.user {
+	margin: 6px auto;
+}
+
+*+html .user {
+	margin: 4px auto;
+}
+
+.chknumber {
+	margin-bottom:3px;
+	text-align:left;
+	padding-left:3px
+}
+.button {
+	margin: 15px auto;
+}
+.input-button {
+	border:0;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 16px;
+	background:url(../images/button_bg.png) no-repeat;
+	color:#fff;
+	overflow:visible;
+}
+IMG {
+	border:none;
+	cursor:pointer;
+}
+FORM {
+	margin:0;
+	padding:0
+}
